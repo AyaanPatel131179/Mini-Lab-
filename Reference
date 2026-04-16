@@ -40,6 +40,8 @@ int addRandom(int x) {
 
 int main() {
 
+    srand(time(0));
+    
     string text;
 
     cout << "enter a string";
